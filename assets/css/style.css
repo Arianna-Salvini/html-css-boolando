@@ -15,6 +15,7 @@
 
 body{
     background-color: var(--bz-light);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* #endregion Commons */
 
@@ -39,9 +40,13 @@ nav{
     height: 3rem;
     color: var(--bz-light);
 }
-/* #endregion Utilities */
 
-/* #region Debug */
+.flex_container{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+/* #endregion Utilities */
 
 /* #region Header */
 
@@ -65,6 +70,63 @@ nav{
 }
 /* #endregion Header */
 
-/* #endregion Debug */
+/* #region Main */
+.product_image{
+    position: relative;
+}
+
+.label_position {
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+}
+
+.card {
+    width: 33%;
+    margin-top: 2rem;
+    background-color: aqua;
+    border: 2px solid;
+
+}
+
+.discount{
+    background-color: var(--bz-dark-discount);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+}
+
+.spacial_label{
+    background-color: var(--bz-special-label);
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.3rem;
+}
+
+.like{
+    background-color: var(--bz-light);
+    display: inline;
+    padding: 0.5rem 0.6rem;
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+
+    
+}
 
 
+.product_image{
+    height: 640px;
+    background-color: aquamarine;
+}
+
+.brand, .product_price {
+    font-size: 0.8rem;
+}
+
+/* #endregion Main */
+footer{
+    margin-top: 2rem;
+}
+
+/* #endregion Footer */
