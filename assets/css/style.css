@@ -12,4 +12,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--bz-light);
+}
 /* #endregion Commons */
+
+/* #region Utilities */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--bz-primary);
+    height: 5rem
+}
+
+.footer_container{
+    background-color: var(--bz-dark);
+    height: 5rem;
+    color: var(--bz-light);
+}
+/* #endregion Utilities */
+
+/* #region Debug */
+.debug{
+}
+/* #endregion Debug */
+
+
