@@ -78,6 +78,10 @@ nav{
     padding: 0.3rem;
     text-decoration: none;
 }
+
+.hover {
+    display: none;
+}
 /* #endregion Header */
 
 /* #region Main */
@@ -147,7 +151,6 @@ nav{
 }
 /* #endregion Main */
 
-
 /* #region Footer */
 .footer_container{
     background-color: var(--bz-dark);
@@ -186,3 +189,10 @@ nav{
 }
 
 /* #endregion Footer */
+
+/* #region Hover */
+
+.product_image:hover .like{
+    color: var(--bz-dark-discount);
+}
+/* #endregion Hover */
