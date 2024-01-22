@@ -1,3 +1,15 @@
-h1{
-    color:aquamarine
+/* #region Commons */
+:root {
+    --bz-primary: #ff6900;
+    --bz-light:#ffffff;
+    --bz-dark:#1a1a1a;
+    --bz-special-label:#008000;
+    --bz-dark-discount:#ff0000;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #endregion Commons */
