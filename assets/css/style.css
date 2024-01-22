@@ -17,12 +17,21 @@ body{
     background-color: var(--bz-light);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+main{
+    padding-top: 3rem;
+}
 /* #endregion Commons */
 
 /* #region Utilities */
 .container{
     width: 80%;
     margin: auto;
+}
+
+header{
+    background-color: var(--bz-primary);
+    height: 3rem;
 }
 
 nav{
@@ -33,6 +42,9 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .footer_container{
@@ -77,16 +89,23 @@ nav{
 
 .label_position {
     position: absolute;
-    left: 0%;
+    left: 0.5rem;
     bottom: 5%;
 }
 
 .card {
     width: 33%;
     margin-top: 2rem;
-    background-color: aqua;
-    border: 2px solid;
 
+}
+
+.product_description{
+    padding-left: 0.5rem;
+}
+
+.item{
+    width: 100%;
+    padding: 0 0.5rem 0;
 }
 
 .discount{
@@ -108,16 +127,24 @@ nav{
     display: inline;
     padding: 0.5rem 0.6rem;
     position: absolute;
-    right: 0;
+    right: 0.5rem;
     top: 0.5rem;
 }
 
-.product_image{
-    height: 640px;
-    background-color: aquamarine;
+.brand, .price{
+    font-size: 0.7rem;
 }
 
-.brand, .product_price {
+.red{
+    color: var(--bz-dark-discount);
+    font-weight: 900;
+}
+
+.bar_price{
+    text-decoration: line-through;
+}
+
+.product_name{
     font-size: 0.8rem;
 }
 
