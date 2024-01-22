@@ -19,7 +19,7 @@ body{
 }
 
 main{
-    padding-top: 3rem;
+    padding: 3rem 0;
 }
 
 footer{
@@ -153,13 +153,13 @@ nav{
     background-color: var(--bz-dark);
     color: var(--bz-light);
     font-size: 0.5rem;
-    padding: 1rem 10%;
+    padding: 1rem 10%; 
     display:flex;
     justify-content: space-between;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 4rem;
+    height: 3rem;
 }
 
 .name_srl{
