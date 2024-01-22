@@ -79,9 +79,7 @@ nav{
     text-decoration: none;
 }
 
-.hover {
-    display: none;
-}
+
 /* #endregion Header */
 
 /* #region Main */
@@ -108,6 +106,12 @@ nav{
 .item{
     width: 100%;
     padding: 0 0.5rem 0;
+}
+
+.item_b {
+    width: 100%;
+    padding: 0 0.5rem 0;
+    display: none;
 }
 
 .discount{
@@ -194,5 +198,16 @@ nav{
 
 .product_image:hover .like{
     color: var(--bz-dark-discount);
+}
+
+.product_image:hover .item_b{
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product_image:hover, .product_description:hover{
+    cursor: pointer;
 }
 /* #endregion Hover */
