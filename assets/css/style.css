@@ -21,6 +21,10 @@ body{
 main{
     padding-top: 3rem;
 }
+
+footer{
+    margin-top: 2rem;
+}
 /* #endregion Commons */
 
 /* #region Utilities */
@@ -45,12 +49,6 @@ nav{
     position: fixed;
     width: 100%;
     z-index: 9999;
-}
-
-.footer_container{
-    background-color: var(--bz-dark);
-    height: 3rem;
-    color: var(--bz-light);
 }
 
 .flex_container{
@@ -147,10 +145,44 @@ nav{
 .product_name{
     font-size: 0.8rem;
 }
-
 /* #endregion Main */
-footer{
-    margin-top: 2rem;
+
+
+/* #region Footer */
+.footer_container{
+    background-color: var(--bz-dark);
+    color: var(--bz-light);
+    font-size: 0.5rem;
+    padding: 1rem 10%;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+}
+
+.name_srl{
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding-bottom: 0.4rem;
+}
+
+.infos{
+    display: flex;
+}
+
+.unodered_list_footer{
+    list-style-type: none;
+    margin-right: 0.5rem;
+}
+
+.find_us{
+    margin-bottom: 0.5rem;
+}
+
+.social_icons{
+    font-size: 0.7rem;
 }
 
 /* #endregion Footer */
