@@ -25,20 +25,46 @@ body{
 }
 
 nav{
+    color: var(--bz-light);
     background-color: var(--bz-primary);
-    height: 5rem
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .footer_container{
     background-color: var(--bz-dark);
-    height: 5rem;
+    height: 3rem;
     color: var(--bz-light);
 }
 /* #endregion Utilities */
 
 /* #region Debug */
-.debug{
+
+/* #region Header */
+
+.gender_option, .navigation_icon{
+    width: 33%;
 }
+
+.logo{
+    width: 34%;
+}
+.gender_list {
+    list-style: none;
+    display:flex;
+    justify-content:center;
+}
+.gender{
+    color: var(--bz-light);
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+/* #endregion Header */
+
 /* #endregion Debug */
 
 
